@@ -1,0 +1,117 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box; 	
+}
+
+html{
+	font-size: 62.5%; 
+}
+body{
+	background-image: url("stars.jpg");
+}
+.container{
+	width: 80%; 
+	margin: 80px auto; 
+}
+.container h1{
+	padding: 60px 0; 
+	color: #fff; 
+	font-size: 44px; 
+	text-align: center;  
+}
+
+.container .heading{
+	font-size: 3rem; 
+	padding: 2rem 0;
+	text-align: center; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+	text-shadow: 0 .5rem 1rem #000; 
+}
+
+.container .music-container{
+	display: flex; 
+	align-items: center; 
+	flex-flow: column; 
+}
+
+.container .music-container .box{
+	height: 16rem; 
+	width: 80%; 
+}
+
+.container .music-container .box .image{
+	height: 100%; 
+	width: 25%; 
+}
+
+.container .music-container .box .image img{
+	height: 100%; 
+	width: 100%;
+}
+.row{
+	display: flex; 
+	align-items: center; 
+	flex-wrap: wrap; 
+}
+.col{
+	flex-basis: 50%; 
+	min-width: 250px; 
+}
+.feature-img{
+	width: 83%; 
+	margin: auto; 
+	position: relative; 
+	border-radius: 6px; 
+	overflow: hidden; 
+}
+.small-img-row{
+	display: flex;
+	background: #efefef; 
+	margin: 20px 0; 
+	align-items: center; 
+	border-radius: 6px; 
+	overflow: hidden; 
+	width: 85%; 
+}
+.small-img{
+	position: relative; 
+}
+.small-img img{
+	width: 150px; 
+}
+.small-img-row p{
+	margin-left: 20px; 
+	color: #707070;
+	line-height: 22px; 
+	font-size: 15px; 
+}
+.play-btn{
+	width: 60px; 
+	position: absolute; 
+	left: 50%; 
+	top: 50%; 
+	transform: translate(-50%, -50%);
+	cursor: pointer; 
+}
+.small-img .play-btn{
+	width: 35px; 
+}
+.video-player{
+	width: 80%; 
+	position: absolute; 
+	left: 50%; 
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none; 
+}
+video: focus{
+	outline: none; 
+}
+.close-btn{
+	position: absolute; 
+	top: 10px; 
+	right: 10px; 
+	width: 30px; 
+	cursor: pointer; 
+}
